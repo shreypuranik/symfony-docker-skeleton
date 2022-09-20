@@ -15,3 +15,15 @@ Clone via git by running:
 * Run the following command via cli 
 * ```docker-compose up --build```
 * This should spin up the required containers as specified in `docker-compose.yml`
+
+### Setting up your application 
+
+Once your Docker containers are ready, jump into the php container by running: 
+
+```docker-compose exec php /bin/bash```
+
+Once within the container, run the Symfomy command to set up your app in the same directory: 
+
+```symfony new .```
+
+From your browser, visit http://localhost:8082 and you should see your newly created Symfony app. 
