@@ -2,6 +2,12 @@
 
 This project bundles the base Symfony framework with a MySQL container and Docker to aid with local development. 
 
+### Cloning project 
+
+Clone via git by running: 
+
+```git clone https://github.com/shreypuranik/symfony-docker-skeleton.git```
+
 ### To run locally
 
 * Clone this project locally 
